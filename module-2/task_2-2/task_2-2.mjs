@@ -68,7 +68,7 @@ printOut(newLine);
 
 printOut("--- Part 6 ----------------------------------------------------------------------------------------------");
 /* Put your code below here!*/
-let sentence = "There is much between heaven and eart that we do not understand.";
+let sentence = "There is much between heaven and earth that we do not understand.";
 let sentenceLength = sentence.length;
 printOut("The sentence is : " + sentenceLength);
 printOut("The character at position 19 is : " + sentence.charAt(19));
