@@ -46,6 +46,7 @@ printOut(newLine);
 
 printOut("--- Part 4 ----------------------------------------------------------------------------------------------");
 /* Put your code below here!*/
+let primes = "";
 for(let i =2; i <= 200; i++){
     let isPrime = true
     let j = i - 1;
@@ -56,9 +57,11 @@ for(let i =2; i <= 200; i++){
         j--;
     }
  if (isPrime === true){
-    printOut(i);
- }
- 
+    primes += " " + i;
+}
+}
+printOut(primes);
+
 printOut(newLine);
 
 printOut("--- Part 5 ----------------------------------------------------------------------------------------------");
